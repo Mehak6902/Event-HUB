@@ -1,4 +1,3 @@
-import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 const PageHeader = () => {
     return (

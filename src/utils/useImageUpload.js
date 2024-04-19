@@ -6,7 +6,7 @@ const uploadImage = async (file) => {
     try {
 
         if (!file || !file?.name) {
-            return
+            return;
         }
         const storageRef = ref(storage, `images/${file.name + uuidv4()}`);
 
