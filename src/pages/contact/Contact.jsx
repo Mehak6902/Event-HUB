@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import logo from "../../assets/logo/dream-craft.png";
 import useAuth from "../../hooks/useAuth";
 import useAxiosPublic from "../../hooks/useAxiosPublic";
 import toast from "react-hot-toast";
@@ -43,7 +42,7 @@ const Contact = () => {
       </h2>
       <div className="mt-10 p-5 flex flex-col md:flex-row max-w-5xl mx-auto text-black ">
         <div className=" md:w-1/2">
-          <img src={logo} alt="" className="w-32" />
+          {/* <img src={logo} alt="" className="w-32" /> */}
           <h2 className="text-2xl font-semibold  mb-3">Address</h2>
           <hr className="w-32 " />
           <h2 className="text-2xl font-semibold">+880 1682 872654</h2>
