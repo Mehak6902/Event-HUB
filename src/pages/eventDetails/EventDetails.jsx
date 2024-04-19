@@ -2,24 +2,17 @@ import { useQuery } from "@tanstack/react-query";
 import Lottie from "lottie-react";
 import { BsDiagram3, BsLightning } from "react-icons/bs";
 import { CiCalendarDate, CiPlay1 } from "react-icons/ci";
-import { FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+// import { FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { HiOutlineSpeakerphone } from "react-icons/hi";
 import { IoTicketOutline } from "react-icons/io5";
-import { MdPersonAddAlt1 } from "react-icons/md";
+// import { MdPersonAddAlt1 } from "react-icons/md";
 import { PiListDashesBold, PiNotebookDuotone } from "react-icons/pi";
-import { RiFacebookFill } from "react-icons/ri";
+// import { RiFacebookFill } from "react-icons/ri";
 import { TiTick } from "react-icons/ti";
 import { VscLocation } from "react-icons/vsc";
 import { Link, useParams } from "react-router-dom";
 import loadingAnimation from "../../assets/animation/animation.json";
 import { useEffect, useState } from "react";
-import mamun from '../../assets/team/Mamun.jpg';
-import nizam from '../../assets/team/Nizam.png';
-import ali from '../../assets/team/Ali.png';
-import saikat from '../../assets/team/Saikat.png';
-import nelima from '../../assets/team/Nelima.png';
-import rakib from '../../assets/team/Rakib.png';
-
 
 
 const EventDetails = () => {
@@ -238,81 +231,81 @@ const EventDetails = () => {
             experience cutting-edge demos. Join us for a dynamic tech showcase.
           </p>
 
-          <h2 className="text-2xl font-semibold my-8">Main Speakers</h2>
+          <h2 className="text-2xl font-semibold my-8"></h2>
 
           <div className="grid md:grid-cols-2 gap-6 md:gap-0 mb-8">
             <div className="space-y-10">
               <div className="flex items-center gap-4">
-                <img
+                {/* <img
                   className="w-28 h-28 rounded-full"
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVYTd2Hapj5Ri_KBYNwWpK-Jk9cNuOiQbp6Q&usqp=CAU"
                   alt=""
-                />
+                /> */}
                 <div>
-                  <h2 className="text-xl font-semibold">Foyez Ahmed</h2>
-                  <h3 className="text-md font-medium">Web Developer</h3>
+                  <h2 className="text-xl font-semibold"></h2>
+                  <h3 className="text-md font-medium"></h3>
                   <div className="flex gap-3 mt-3">
                     <p className="border-2 border-gray-500 rounded-full p-1">
-                      <RiFacebookFill className="text-md" />
+                      {/* <RiFacebookFill className="text-md" /> */}
                     </p>
                     <p className="border-2 border-gray-500 rounded-full p-1">
-                      <FaInstagram className="text-md" />
+                      {/* <FaInstagram className="text-md" /> */}
                     </p>
                     <p className="border-2 border-gray-500 rounded-full p-1">
-                      <FaLinkedinIn className="text-md" />
+                      {/* <FaLinkedinIn className="text-md" /> */}
                     </p>
                     <p className="border-2 border-gray-500 rounded-full p-1">
-                      <FaTwitter className="text-md" />
+                      {/* <FaTwitter className="text-md" /> */}
                     </p>
                   </div>
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <img
+                {/* <img
                   className="w-28 h-28 rounded-full"
                   src="https://demo.egenslab.com/html/eventlab/assets/images/speaker/speaker-sm1.png"
                   alt=""
-                />
+                /> */}
                 <div>
-                  <h2 className="text-xl font-semibold">Asif Mahmud</h2>
-                  <h3 className="text-md font-medium">Graphic Designer</h3>
+                  <h2 className="text-xl font-semibold"></h2>
+                  <h3 className="text-md font-medium"></h3>
                   <div className="flex gap-3 mt-3">
                     <p className="border-2 border-gray-500 rounded-full p-1">
-                      <RiFacebookFill className="text-md" />
+                      {/* <RiFacebookFill className="text-md" /> */}
                     </p>
                     <p className="border-2 border-gray-500 rounded-full p-1">
-                      <FaInstagram className="text-md" />
+                      {/* <FaInstagram className="text-md" /> */}
                     </p>
                     <p className="border-2 border-gray-500 rounded-full p-1">
-                      <FaLinkedinIn className="text-md" />
+                      {/* <FaLinkedinIn className="text-md" /> */}
                     </p>
                     <p className="border-2 border-gray-500 rounded-full p-1">
-                      <FaTwitter className="text-md" />
+                      {/* <FaTwitter className="text-md" /> */}
                     </p>
                   </div>
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <img
+                {/* <img
                   className="w-28 h-28 rounded-full"
                   src="https://demo.egenslab.com/html/eventlab/assets/images/speaker/speaker-sm2.png"
                   alt=""
-                />
+                /> */}
                 <div>
-                  <h2 className="text-xl font-semibold">Arif Hossain</h2>
-                  <h3 className="text-md font-medium">Digital Marketer</h3>
+                  <h2 className="text-xl font-semibold"></h2>
+                  <h3 className="text-md font-medium"></h3>
                   <div className="flex gap-3 mt-3">
                     <p className="border-2 border-gray-500 rounded-full p-1">
-                      <RiFacebookFill className="text-md" />
+                      {/* <RiFacebookFill className="text-md" /> */}
                     </p>
                     <p className="border-2 border-gray-500 rounded-full p-1">
-                      <FaInstagram className="text-md" />
+                      {/* <FaInstagram className="text-md" /> */}
                     </p>
                     <p className="border-2 border-gray-500 rounded-full p-1">
-                      <FaLinkedinIn className="text-md" />
+                      {/* <FaLinkedinIn className="text-md" /> */}
                     </p>
                     <p className="border-2 border-gray-500 rounded-full p-1">
-                      <FaTwitter className="text-md" />
+                      {/* <FaTwitter className="text-md" /> */}
                     </p>
                   </div>
                 </div>
@@ -320,19 +313,19 @@ const EventDetails = () => {
             </div>
             <div className="space-y-10">
               <div className="flex items-center gap-4">
-                <img
+                {/* <img
                   className="w-28 h-28 rounded-full"
                   src="https://1.bp.blogspot.com/-HoyT-d9JX0g/YUtRefQcHLI/AAAAAAAAk9w/P-NTrf0jPColdcKjKy2XGAVAjLjbQUyIQCLcBGAsYHQ/s16000-rw/50%2B%252B%2BIndian%2BHijab%2BGirl%2BDP%2Bfor%2BInstagram%2BPage%2Bwith%2BCaption%2B%252825%2529.jpg"
                   alt=""
-                />
+                /> */}
                 <div>
-                  <h2 className="text-xl font-semibold">Sabrina Suraiya</h2>
-                  <h3 className="text-md font-medium">Product Designer</h3>
+                  <h2 className="text-xl font-semibold"></h2>
+                  <h3 className="text-md font-medium"></h3>
                   <div className="flex gap-3 mt-3">
-                    <p className="border-2 border-gray-500 rounded-full p-1">
+                    {/* <p className="border-2 border-gray-500 rounded-full p-1">
                       <RiFacebookFill className="text-md" />
-                    </p>
-                    <p className="border-2 border-gray-500 rounded-full p-1">
+                    </p> */}
+                    {/* <p className="border-2 border-gray-500 rounded-full p-1">
                       <FaInstagram className="text-md" />
                     </p>
                     <p className="border-2 border-gray-500 rounded-full p-1">
@@ -340,23 +333,23 @@ const EventDetails = () => {
                     </p>
                     <p className="border-2 border-gray-500 rounded-full p-1">
                       <FaTwitter className="text-md" />
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <img
+                {/* <img
                   className="w-28 h-28 rounded-full"
                   src="https://demo.egenslab.com/html/eventlab/assets/images/speaker/speaker-sm4.png"
                   alt=""
-                />
+                /> */}
                 <div>
-                  <h2 className="text-xl font-semibold">Lutfur Rahman</h2>
+                  <h2 className="text-xl font-semibold"></h2>
                   <h3 className="text-md font-medium">
-                    Brand Identity Designer
+      
                   </h3>
                   <div className="flex gap-3 mt-3">
-                    <p className="border-2 border-gray-500 rounded-full p-1">
+                    {/* <p className="border-2 border-gray-500 rounded-full p-1">
                       <RiFacebookFill className="text-md" />
                     </p>
                     <p className="border-2 border-gray-500 rounded-full p-1">
@@ -367,21 +360,21 @@ const EventDetails = () => {
                     </p>
                     <p className="border-2 border-gray-500 rounded-full p-1">
                       <FaTwitter className="text-md" />
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <img
+                {/* <img
                   className="w-28 h-28 rounded-full"
                   src="https://i.ibb.co/pPtyQxm/360-F-214746128-31-Jkea-P6r-U0-Nzzzd-FC4kh-Gkmqc8noe6h.jpg"
                   alt=""
-                />
+                /> */}
                 <div>
-                  <h2 className="text-xl font-semibold">Rizve Ahmed</h2>
-                  <h3 className="text-md font-medium">Writer</h3>
+                  <h2 className="text-xl font-semibold"></h2>
+                  <h3 className="text-md font-medium"></h3>
                   <div className="flex gap-3 mt-3">
-                    <p className="border-2 border-gray-500 rounded-full p-1">
+                    {/* <p className="border-2 border-gray-500 rounded-full p-1">
                       <RiFacebookFill className="text-md" />
                     </p>
                     <p className="border-2 border-gray-500 rounded-full p-1">
@@ -392,7 +385,7 @@ const EventDetails = () => {
                     </p>
                     <p className="border-2 border-gray-500 rounded-full p-1">
                       <FaTwitter className="text-md" />
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
@@ -435,19 +428,19 @@ const EventDetails = () => {
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-1">
               <div className="bg-base-200 py-5 lg:w-96 mt-8 lg:mt-10">
-                <h2 className="bg-pink-700 px-4 py-2 text-2xl w-72 text-center text-white rounded-r-md flex items-center gap-2">
+                {/* <h2 className="bg-pink-700 px-4 py-2 text-2xl w-72 text-center text-white rounded-r-md flex items-center gap-2">
                   <MdPersonAddAlt1 className="text-3xl" />
                   Event Organized By
-                </h2>
+                </h2> */}
                 <div className="ml-32 mt-6">
-                  <img
+                  {/* <img
                     className="w-40 h-40 rounded-md"
                     src="https://i.ibb.co/c2PW68Q/pexels-italo-melo-2379004.jpg"
                     alt=""
-                  />
+                  /> */}
                   <div className="mt-5 ">
-                    <h2 className="text-2xl font-semibold">Abdullah Mamun</h2>
-                    <h3 className="ml-16 text-lg">CEO</h3>
+                    <h2 className="text-2xl font-semibold"></h2>
+                    <h3 className="ml-16 text-lg"></h3>
                   </div>
                 </div>
               </div>
