@@ -45,7 +45,7 @@ const Contact = () => {
           {/* <img src={logo} alt="" className="w-32" /> */}
           <h2 className="text-2xl font-semibold  mb-3">Address</h2>
           <hr className="w-32 " />
-          <h2 className="text-2xl font-semibold">+880 1682 872654</h2>
+          <h2 className="text-2xl font-semibold">+535728910010  </h2>
           <p className="text-base mb-3">Book online or call</p>
           <h2 className="text-2xl font-semibold">contact@eventVibehub.com</h2>
           <div className="flex items-center ">
