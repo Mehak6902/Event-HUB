@@ -1,6 +1,6 @@
 # Event Management System and Booking Platform
 
-Welcome to the Event Management System, a project built with Reactjs , Nodejs.
+Welcome to the Event Management System, a project built with Reactjs.
 
 ## Main Features
 

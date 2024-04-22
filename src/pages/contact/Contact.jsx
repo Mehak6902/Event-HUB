@@ -43,7 +43,7 @@ const Contact = () => {
       <div className="mt-10 p-5 flex flex-col md:flex-row max-w-5xl mx-auto text-black ">
         <div className=" md:w-1/2">
           {/* <img src={logo} alt="" className="w-32" /> */}
-          <h2 className="text-2xl font-semibold  mb-3">Address</h2>
+          <h2 className="text-2xl font-semibold  mb-3"></h2>
           <hr className="w-32 " />
           <h2 className="text-2xl font-semibold">+535728910010  </h2>
           <p className="text-base mb-3">Book online or call</p>
